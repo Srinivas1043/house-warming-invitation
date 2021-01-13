@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir LT W01_55 Roman1475520", Helvetica, Arial, sans-serif;
+}
+
+.Card {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: medium none;
+    transition: 0.3s;
+    color: whitesmoke;
+}
+
+.Card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.Home img {
+    width: 50%;
+}
+
+.Hometext h1 {
+    font-size: 30px;
+}
+
+.Hometext h2 {
+    font-size: 28px;
+}
+
+.Hometext h3 {
+    font-size: 28px;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.RocketResponse {
+    background: whitesmoke;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.RocketResponse p {
+    float: left;
+    margin-top: 60px;
+}
+
+.RocketResponse img {
+    float: right;
+    width: 90%;
+    margin-top: 40px;
+}
